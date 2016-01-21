@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html data-ng-app = "restappfinal">
+
+<head lang="eng">
+    <title>The Dhaba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/home.tmpl">
+                <i class="fa fa-home"></i></i>Drink Beer Save Water!</a>
+        </div>
+
+    </div>
+
+</nav>
+
+<div>
+    <div class="main" data-ng-view></div>
+</div>
+<script src="app/lib/angular/angular.min.js"></script>
+<script src="app/lib/angular/angular-route.min.js"></script>
+<script src="app/lib/angular/angular-messages.min.js"></script>
+<script src="app/lib/angular/angular-animate.min.js"></script>
+
+<script src="app/app.js"></script>
+<script src="app/controllers/controllers.js"></script>
+<script src="app/directives/directives.js"></script>
+<script src="app/services/services.js"></script>
+
+</body>
+
+</html>
